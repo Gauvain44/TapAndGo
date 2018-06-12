@@ -1,0 +1,10 @@
+stations:
+    resource: "@StationsBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+cities:
+    resource: "@CitiesBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

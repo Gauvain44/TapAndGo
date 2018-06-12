@@ -1,0 +1,4 @@
+services:
+#    stations.example:
+#        class: StationsBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

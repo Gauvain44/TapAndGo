@@ -5,7 +5,7 @@
     "description": "The \"Symfony Standard Edition\" distribution",
     "autoload": {
         "psr-4": {
-            "AppBundle\\": "src/AppBundle"
+            "": "src/"
         },
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
     },
@@ -48,7 +48,7 @@
         "post-update-cmd": [
             "@symfony-scripts",
             "npm install"
-        ],
+        ]
     },
     "config": {
         "platform": {
